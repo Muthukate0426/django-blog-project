@@ -52,37 +52,9 @@ The purpose of this project is to learn web application development with Django 
 
 ---
 
-# Project Structure
-Django_Blog_Project/
-
-│
-├── home/
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│ ├── templates/
-│ └── static/
-│
-├── mysite/
-│ ├── settings.py
-│ └── urls.py
-│
-├── media/
-│
-├── manage.py
-│
-├── requirements.txt
-│
-└── README.md
-
-
----
-
 # Installation & Setup
 
-## 1. Clone Repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/Muthukate0426/django-blog-project.git
-
-</> Markdown
