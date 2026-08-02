@@ -52,9 +52,4 @@ The purpose of this project is to learn web application development with Django 
 
 ---
 
-# Installation & Setup
-
-## 1. Clone the repository
-
-```bash
-git clone https://github.com/Muthukate0426/django-blog-project.git
+# Project Structure
