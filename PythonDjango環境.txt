@@ -1,0 +1,16 @@
+﻿Python Django 開発環境
+
+Python Version:
+Python 3.13.14
+
+Django Version:
+6.0.7
+
+Virtual Environment:
+.djangoenv
+
+Project Start:
+py manage.py runserver
+
+Install Package:
+pip install -r requirements.txt
