@@ -1,57 +1,47 @@
 # Django Blog Website 🚀
 
-A full-stack blog web application developed with **Python and Django** as a practical project to learn web application development.
+## Overview
 
-🌐 **Live Demo:** https://django-blog-project-iiqb.onrender.com/
+This is my first Django Blog Website developed using **Python, Django, Bootstrap 5, and SQLite3**.
 
----
-
-## 📌 Project Overview
-
-This is a functional blog website built with **Django 6**.
-
-The project includes user authentication, profile management, image upload, blog post management, search functionality, and CRUD operations.
-
-I developed this project to gain practical experience in **Python, Django, database management, frontend development, and web application deployment**.
+The purpose of this project is to learn web application development with Django and create a functional blog system with user authentication, profile management, and blog post management features.
 
 ---
 
-## ✨ Main Features
+## Features
 
-### 👤 User Management
+### User Management
 
 * User Registration
 * User Login / Logout
 * User Dashboard
-* Profile Management
+* Profile Edit
 * Profile Image Upload
-* Password Change
+* Change Password
 
-### 📝 Blog Management
+### Blog Management
 
 * Create Blog Posts
-* View Blog Posts
-* View Blog Post Details
 * Edit Blog Posts
 * Delete Blog Posts
-* Image Upload for Blog Posts
+* View Blog Details
 * Search Blog Posts
 
-### 🔐 Access Control
+### Access Control
 
-* Login required for creating posts
+* Login required for creating blog posts
 * Users can edit their own posts
 * Users can delete their own posts
 * Authentication-based page access
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 ### Backend
 
-* Python 3.13
-* Django 6.0
+* Python 3.13.14
+* Django 6.0.7
 
 ### Frontend
 
@@ -64,36 +54,31 @@ I developed this project to gain practical experience in **Python, Django, datab
 
 * SQLite3
 
-### Other Tools
+### Other
 
-* Pillow
+* Pillow (Image Processing)
 * Git
 * GitHub
 * Render
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 django-blog-project/
 │
 ├── home/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── home/
-│   ├── static/
 │   ├── models.py
 │   ├── views.py
-│   ├── forms.py
-│   └── urls.py
+│   ├── urls.py
+│   ├── templates/
+│   └── static/
 │
 ├── mysite/
 │   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+│   └── urls.py
 │
-├── media/
 ├── manage.py
 ├── requirements.txt
 ├── build.sh
@@ -103,27 +88,27 @@ django-blog-project/
 
 ---
 
-## 🌐 Live Demo
+## Live Demo 🌐
 
-The project is deployed online using **Render**.
+The website is deployed online using **Render**.
 
-👉 **Live Website:**
+👉 **Live Demo:**
 https://django-blog-project-iiqb.onrender.com/
 
 > Note: The free hosting service may take some time to start after a period of inactivity.
 
 ---
 
-## 💻 GitHub Repository
+## GitHub Repository 💻
 
 👉 **Source Code:**
 https://github.com/Muthukate0426/django-blog-project
 
-The complete source code is available on GitHub, including the Django application structure, templates, models, views, forms, and deployment configuration.
+The complete source code is available on GitHub.
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -145,7 +130,7 @@ python -m venv venv
 
 ### 4. Activate the virtual environment
 
-#### Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
@@ -169,7 +154,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Open the following URL in your browser:
+Open your browser and visit:
 
 ```text
 http://127.0.0.1:8000/
@@ -177,12 +162,12 @@ http://127.0.0.1:8000/
 
 ---
 
-## 📚 What I Learned
+## What I Learned 📚
 
 Through this project, I learned how to:
 
 * Build web applications using Django
-* Create Django models and database relationships
+* Create Django models and database structures
 * Implement user authentication
 * Handle forms and user input
 * Upload and manage images
@@ -195,18 +180,18 @@ Through this project, I learned how to:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements 🔮
 
-* Add a comment system
+* Add comment system
 * Add categories and tags
-* Improve responsive UI/UX
+* Improve the UI design
 * Add pagination
-* Add additional security improvements
+* Improve security features
 * Migrate from SQLite to PostgreSQL for production
 
 ---
 
-## 👨‍💻 Author
+## Author 👨‍💻
 
 **Nirma**
 
