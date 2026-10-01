@@ -143,16 +143,23 @@ Home
     <div class="card shadow h-100">
 
 
+        <!-- Blog Post Image -->
+
         {% if post.image %}
 
+            <img src="{{ post.image.url }}"
+                 class="card-img-top"
+                 style="height:250px; object-fit:cover;"
+                 alt="{{ post.title }}">
 
-        <img src="{{ post.image.url }}"
-             class="card-img-top"
-             style="height:250px; object-fit:cover;">
+        {% else %}
 
+            <img src="{% static 'home/images/hero.jpg' %}"
+                 class="card-img-top"
+                 style="height:250px; object-fit:cover;"
+                 alt="{{ post.title }}">
 
         {% endif %}
-
 
 
         <div class="card-body">
@@ -183,9 +190,9 @@ Home
 
 
 
-            <!-- Changed Read More Link -->
+            <!-- Read More Link -->
 
-            <a href="/blog/{{ post.id }}/" 
+            <a href="/blog/{{ post.id }}/"
                class="btn btn-primary">
 
                 Read More
